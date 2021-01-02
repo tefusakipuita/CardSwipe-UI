@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2D83662588F4DE006A5338 /* Card_Swipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D83652588F4DE006A5338 /* Card_Swipe_AppApp.swift */; };
+		EE2D83682588F4DE006A5338 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D83672588F4DE006A5338 /* ContentView.swift */; };
+		EE2D836A2588F4E1006A5338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2D83692588F4E1006A5338 /* Assets.xcassets */; };
+		EE2D836D2588F4E1006A5338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2D836C2588F4E1006A5338 /* Preview Assets.xcassets */; };
+		EE2D837A2588FA17006A5338 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D83792588FA17006A5338 /* Extension.swift */; };
+		EE2D838025890035006A5338 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D837F25890035006A5338 /* Card.swift */; };
+		EE2D83842589006D006A5338 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D83832589006D006A5338 /* Data.swift */; };
+		EE2D83872589021F006A5338 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D83862589021F006A5338 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE2D83622588F4DE006A5338 /* Card Swipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Swipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2D83652588F4DE006A5338 /* Card_Swipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_Swipe_AppApp.swift; sourceTree = "<group>"; };
+		EE2D83672588F4DE006A5338 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE2D83692588F4E1006A5338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2D836C2588F4E1006A5338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE2D836E2588F4E1006A5338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2D83792588FA17006A5338 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EE2D837F25890035006A5338 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EE2D83832589006D006A5338 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EE2D83862589021F006A5338 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2D835F2588F4DE006A5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2D83592588F4DE006A5338 = {
+			isa = PBXGroup;
+			children = (
+				EE2D83642588F4DE006A5338 /* Card Swipe App */,
+				EE2D83632588F4DE006A5338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2D83632588F4DE006A5338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D83622588F4DE006A5338 /* Card Swipe App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2D83642588F4DE006A5338 /* Card Swipe App */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D837E2589002B006A5338 /* Data */,
+				EE2D837D25890026006A5338 /* Model */,
+				EE2D83652588F4DE006A5338 /* Card_Swipe_AppApp.swift */,
+				EE2D83762588F4F1006A5338 /* View */,
+				EE2D83752588F4EB006A5338 /* App */,
+				EE2D83782588FA09006A5338 /* Helper */,
+				EE2D83692588F4E1006A5338 /* Assets.xcassets */,
+				EE2D836E2588F4E1006A5338 /* Info.plist */,
+				EE2D836B2588F4E1006A5338 /* Preview Content */,
+			);
+			path = "Card Swipe App";
+			sourceTree = "<group>";
+		};
+		EE2D836B2588F4E1006A5338 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D836C2588F4E1006A5338 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE2D83752588F4EB006A5338 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D83672588F4DE006A5338 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EE2D83762588F4F1006A5338 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D83862589021F006A5338 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D83782588FA09006A5338 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D83792588FA17006A5338 /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EE2D837D25890026006A5338 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D837F25890035006A5338 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE2D837E2589002B006A5338 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D83832589006D006A5338 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2D83612588F4DE006A5338 /* Card Swipe App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2D83712588F4E1006A5338 /* Build configuration list for PBXNativeTarget "Card Swipe App" */;
+			buildPhases = (
+				EE2D835E2588F4DE006A5338 /* Sources */,
+				EE2D835F2588F4DE006A5338 /* Frameworks */,
+				EE2D83602588F4DE006A5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Swipe App";
+			productName = "Card Swipe App";
+			productReference = EE2D83622588F4DE006A5338 /* Card Swipe App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2D835A2588F4DE006A5338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EE2D83612588F4DE006A5338 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EE2D835D2588F4DE006A5338 /* Build configuration list for PBXProject "Card Swipe App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2D83592588F4DE006A5338;
+			productRefGroup = EE2D83632588F4DE006A5338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2D83612588F4DE006A5338 /* Card Swipe App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2D83602588F4DE006A5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2D836D2588F4E1006A5338 /* Preview Assets.xcassets in Resources */,
+				EE2D836A2588F4E1006A5338 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2D835E2588F4DE006A5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2D837A2588FA17006A5338 /* Extension.swift in Sources */,
+				EE2D83842589006D006A5338 /* Data.swift in Sources */,
+				EE2D83682588F4DE006A5338 /* ContentView.swift in Sources */,
+				EE2D83662588F4DE006A5338 /* Card_Swipe_AppApp.swift in Sources */,
+				EE2D83872589021F006A5338 /* CardView.swift in Sources */,
+				EE2D838025890035006A5338 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE2D836F2588F4E1006A5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2D83702588F4E1006A5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2D83722588F4E1006A5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Card Swipe App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Card Swipe App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Card-Swipe-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2D83732588F4E1006A5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Card Swipe App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Card Swipe App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tefusakipuita.Card-Swipe-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2D835D2588F4DE006A5338 /* Build configuration list for PBXProject "Card Swipe App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2D836F2588F4E1006A5338 /* Debug */,
+				EE2D83702588F4E1006A5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2D83712588F4E1006A5338 /* Build configuration list for PBXNativeTarget "Card Swipe App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2D83722588F4E1006A5338 /* Debug */,
+				EE2D83732588F4E1006A5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2D835A2588F4DE006A5338 /* Project object */;
+}
